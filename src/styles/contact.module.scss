@@ -1,0 +1,22 @@
+@import "variables";
+
+.quote {
+    text-align:center;
+    font-size: 1.5rem;
+    margin: 30vh 0;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+
+    img {
+        margin: 0 1rem 0 1rem;
+        width: 64px;
+        filter: invert(88%) sepia(76%) saturate(1%) hue-rotate(329deg) brightness(106%) contrast(96%);
+
+        &:hover {
+            filter: invert(24%) sepia(14%) saturate(2031%) hue-rotate(194deg) brightness(96%) contrast(91%);
+        }
+    }
+}
