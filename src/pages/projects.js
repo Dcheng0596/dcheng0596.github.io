@@ -26,7 +26,7 @@ const ProjectsPage = () => (
         </div>
       </div>
       <div>
-        <h2><a href="https://smashframedata.com" target="_blank">The Duel</a></h2>
+        <h2><a href="/the-duel">The Duel</a></h2>
         <p>A client server Unity action game that outs two players head on over a network.
            Features a lobby based matching making system and real time combat with health tracking.
         </p>
@@ -38,7 +38,7 @@ const ProjectsPage = () => (
         </div>
       </div>
       <div>
-        <h2><a href="https://smashframedata.com" target="_blank">Target Practice</a></h2>
+        <h2><a href="https://www.openprocessing.org/sketch/598151" target="_blank">Target Practice</a></h2>
         <p>A processing sketch that tests and scores your mouse accuracy. Click the growing and shrinking 
            circles before they dissapear.
         </p>
@@ -55,7 +55,7 @@ const ProjectsPage = () => (
         <p></p>
         <p>Technologies: Javascript</p>
         <div className={projectStyles.links}>
-          <a href="https://www.openprocessing.org/sketch/598151" target="_blank">
+          <a href="https://en.wikipedia.org/wiki/Chuck_Norris" target="_blank">
             <img src={chuck} alt="GitHub" />
           </a>
         </div>
